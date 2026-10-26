@@ -1,1 +1,38 @@
-const menu=document.getElementById('menu');const nav=document.getElementById('nav');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}));const checks=[...document.querySelectorAll('#tasks input')];function update(){const done=checks.filter(c=>c.checked).length;document.getElementById('count').textContent=`${done}/${checks.length}`;document.getElementById('ring').style.setProperty('--pct',`${done/checks.length*100}%`);document.getElementById('progress-text').textContent=done===checks.length?'Great work! Keep these habits going.':`${checks.length-done} safety steps remaining.`}checks.forEach(c=>c.addEventListener('change',update));document.getElementById('reset').addEventListener('click',()=>{checks.forEach(c=>c.checked=false);update()});document.getElementById('year').textContent=new Date().getFullYear();update();
+const menu = document.getElementById('menu');
+const nav = document.getElementById('nav');
+
+menu.addEventListener('click', () => {
+  const isOpen = nav.classList.toggle('open');
+  menu.setAttribute('aria-expanded', String(isOpen));
+});
+
+nav.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    nav.classList.remove('open');
+    menu.setAttribute('aria-expanded', 'false');
+  });
+});
+
+const checkboxes = [...document.querySelectorAll('#tasks input')];
+const counter = document.getElementById('count');
+const ring = document.getElementById('ring');
+const message = document.getElementById('progress-text');
+
+function updateChecklist() {
+  const checked = checkboxes.filter(box => box.checked).length;
+  counter.textContent = `${checked}/${checkboxes.length}`;
+  ring.style.setProperty('--pct', `${checked / checkboxes.length * 100}%`);
+  message.textContent = checked === checkboxes.length
+    ? 'Nice work. Keep these habits going!'
+    : checked === 0
+      ? 'Check off what you already do.'
+      : `${checkboxes.length - checked} more to go. Every step helps.`;
+}
+
+checkboxes.forEach(box => box.addEventListener('change', updateChecklist));
+document.getElementById('reset').addEventListener('click', () => {
+  checkboxes.forEach(box => { box.checked = false; });
+  updateChecklist();
+});
+document.getElementById('year').textContent = new Date().getFullYear();
+updateChecklist();
