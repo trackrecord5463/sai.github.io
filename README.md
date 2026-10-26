@@ -1,15 +1,12 @@
-<<<<<<< HEAD
-# Turtle Mountain Cybercrime, Scams & AI
-
-Open `index.html` in a browser. All website files are in this folder.
-
-- `styles.css`: design and mobile layout
-- `script.js`: mobile menu and checklist
-- `assets/website-qr.png`: QR code for https://trackrecord5463.github.io/sai.github.io/#home
-
-Upload the entire folder contents to GitHub Pages or another static web host. Keep the `assets` folder with `index.html`.
-=======
 **References:
-**All material in the brochure and website has been used from Google
-Tools like Canva and Frameworks like Bootstrap have been used to construct the website
->>>>>>> 3ada38320125e411740f8c45246aef56c1a11d64
+**All material in the brochure and website has been used from Google. I am using Google as a reference for the information
+Tools like Canva, AI and Frameworks like Bootstrap have been used to construct the website
+Bootstrap - https://getbootstrap.com/
+Canva - https://www.canva.com/
+Canadian Anti-Fraud Centre. (n.d.). Canadian Anti-Fraud Centre. Government of Canada. https://antifraudcentre-centreantifraude.ca/
+Canadian Centre for Cyber Security. (n.d.). Canadian Centre for Cyber Security. Government of Canada. https://www.cyber.gc.ca/
+Canadian Radio-television and Telecommunications Commission. (n.d.). Canada's anti-spam legislation (CASL). https://crtc.gc.ca/eng/internet/anti.htm
+Get Cyber Safe. (n.d.). Get Cyber Safe. Government of Canada. https://www.getcybersafe.gc.ca/
+Office of the Privacy Commissioner of Canada. (n.d.). Office of the Privacy Commissioner of Canada. https://www.priv.gc.ca/
+Royal Canadian Mounted Police. (n.d.). Royal Canadian Mounted Police. Government of Canada. https://www.rcmp-grc.gc.ca/
+Canadian Anti-Fraud Centre. (n.d.). Protect yourself from fraud. https://antifraudcentre-centreantifraude.ca/protect-protegez-eng.htm
