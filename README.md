@@ -1,6 +1,8 @@
-**References:
-**All material in the brochure and website has been used from Google. I am using Google as a reference for the information
+References:
+
+All the material in the brochure and website has been used from Google. I am using Google as a reference for the information
 Tools like Canva, Google AI and APIs and Frameworks like Bootstrap have been used to construct the website
+
 Bootstrap - https://getbootstrap.com/
 Canva - https://www.canva.com/
 Canadian Anti-Fraud Centre. (n.d.). Canadian Anti-Fraud Centre. Government of Canada. https://antifraudcentre-centreantifraude.ca/
