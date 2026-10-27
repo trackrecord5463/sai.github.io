@@ -5,6 +5,7 @@ Tools like Canva, Google AI and APIs and Frameworks like Bootstrap have been use
 
 Bootstrap - https://getbootstrap.com/
 Canva - https://www.canva.com/
+Github Pages - https://docs.github.com/en/pages 
 Canadian Anti-Fraud Centre. (n.d.). Canadian Anti-Fraud Centre. Government of Canada. https://antifraudcentre-centreantifraude.ca/
 Canadian Centre for Cyber Security. (n.d.). Canadian Centre for Cyber Security. Government of Canada. https://www.cyber.gc.ca/
 Canadian Radio-television and Telecommunications Commission. (n.d.). Canada's anti-spam legislation (CASL). https://crtc.gc.ca/eng/internet/anti.htm
